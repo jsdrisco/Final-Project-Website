@@ -1,5 +1,8 @@
-<a href="bergeron.php">Bergeron</a>
-<a href="chara.php">Chara</a>
-<a href="thomas.php">Thomas</a>
-<a href="main.php">Home</a>
-<a href="form.php">Form</a>
+<nav>
+    <p>
+        <a href="bergeron.php"> Patrice Bergeron </a>
+        <a href="timThomas.php"> Tim Thomas </a>
+        <a href="index.php"> Home Page </a>
+        <a href="form.php"> Form </a>
+    </p>
+</nav>

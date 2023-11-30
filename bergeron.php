@@ -1,4 +1,5 @@
 <h1>Patrice Bergeron</h1>
+<main>
 <section id="image">
     <figure>
         <img src="images/patriceBergeron.jpg" alt="Patrice Bergeron circa 2011">
@@ -39,3 +40,6 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/q6SUYwBh3zc?si=3_S6jjUHb5QYGvHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </section>
+</main>
+</body>
+</html>

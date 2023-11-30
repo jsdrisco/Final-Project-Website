@@ -14,10 +14,15 @@
         <meta name="description" content="A feature dedicated to a few notable players from the 2011 NHL Stanley Cup Champion Boston Bruins">
         <!--Head with meta elements and title-->
     </head>
+    <body>
+        <?php
+            include 'header.php';
+        ?>
+        <main>
 <?php
-
+/**
 print '<body class ="' .$pathParts['filename'] .'">';
 include 'database-connect.php';
 include 'header.php';
-include 'nav.php';
+include 'nav.php';*/
 ?>

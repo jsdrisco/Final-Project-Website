@@ -1,5 +1,5 @@
 <?php
-
+    include 'top.php';
 ?>
 
     <h1> Tim Thomas </h1>
@@ -36,6 +36,7 @@
             <th> Wins </th>
             <th> Losses </th>
             <th> Save% </th>
+            <th> GAA </th>
         </tr>
         <!--TODO: GET DATABASE DATA HERE -->
     </table>

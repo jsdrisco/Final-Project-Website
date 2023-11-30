@@ -17,9 +17,21 @@
         <br>Chara is notable outside his hockey career as well. Chara is fluent in seven different languages, and has a real estate license, so he will not bored during his retirement. </p>
 </section>
 <section id="stats">
+    <h2> Career Stats </h2>
+    <table>
+        <tr>
+            <th> Year </th>
+            <th> Wins </th>
+            <th> Losses </th>
+            <th> GAA </th>
+        </tr>
+    </table>
 
 </section>
 
 <section id="video">
-
+    <h2>Iconic Moment</h2>
+    <p>Chara gleefully carries the Stanley Cup after their iconic win</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0Gj1Tp7ZbMk?si=yDNHuZo9z_RlbuA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <cite>Source: NBC</cite>
 </section>

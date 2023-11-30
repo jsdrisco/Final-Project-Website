@@ -2,7 +2,6 @@
     include 'top.php';
 ?>
 
-
             <form action="#" method="POST">
                 <fieldset class="pInfo">
                     <p>

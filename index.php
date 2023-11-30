@@ -1,6 +1,6 @@
-//<?php
-//    include 'top.php';
-//?>
+<?php
+   include 'top.php';
+?>
 
 <main>
     <h2>Bruins 2011 Stanley Cup GOATs</h2>

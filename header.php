@@ -1,7 +1,7 @@
 <header>
     <h1>
         <?php
-            if(basename($_SERVER['SCRIPT_FILENAME']) == "main.php")
+            if(basename($_SERVER['SCRIPT_FILENAME']) == "index.php")
                 print 'The 2011 Stanley Cup Champion Boston Bruins';
 
             elseif(basename($_SERVER['SCRIPT_FILENAME']) == "bergeron.php")

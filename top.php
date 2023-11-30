@@ -16,6 +16,7 @@
     </head>
     <body>
         <?php
+            include 'nav.php';
             include 'header.php';
         ?>
         <main>

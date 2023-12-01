@@ -1,5 +1,4 @@
 <?php include 'top.php';?>
-<h1>Patrice Bergeron</h1>
 <main>
 <section id="image">
     <figure>

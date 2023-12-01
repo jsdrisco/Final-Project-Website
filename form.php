@@ -39,8 +39,8 @@
                     </p>
 
                     <p>
-                        <input type="checkbox" name="chkGeothermal" id="chkGeothermal" value="1">
-                        <label for="chkGeothermal">Geothermal energy</label>
+                        <input type="checkbox" name="chkOther" id="chkOther" value="1">
+                        <label for="chkGeothermal">Other</label>
                     </p>
                 </fieldset>
 

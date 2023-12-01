@@ -30,12 +30,13 @@
                 <table>
                     <tr>
                         <th> Year </th>
+                        <th> Team </th>
                         <th> Wins </th>
                         <th> Losses </th>
                         <th> Save% </th>
                         <th> GAA </th>
                     </tr>
-                    <!--TODO: GET DATABASE DATA HERE -->
+                    <!--TOD O: GET DATABASE DATA HERE -->
                 </table>
             </section>
 

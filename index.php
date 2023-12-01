@@ -2,6 +2,13 @@
    include 'top.php';
 ?>
 
+            <section id="image">
+                <figure>
+                    <img src="images/netCelly.jpeg" alt="The Bruins celebrate at the net after their 4-0 game 7 victory">
+                    <figcaption><cite> Source: City News Canada </cite></figcaption>
+                </figure>
+            </section>
+
             <section id="bio">
                 <h2>Bruins 2011 Stanley Cup GOATs</h2>
                 <p>
@@ -31,6 +38,9 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
                 </iframe>
+                <p>
+                    <cite> The Bruins close it out to win the 2011 Stanley Cup </cite>
+                </p>
             </section>
         </main>
     </body>

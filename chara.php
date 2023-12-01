@@ -1,4 +1,6 @@
-<h1>Zdeno Chara</h1>
+<?php
+    include 'top.php';
+?>
 
 <section id="image">
 <figure>
@@ -17,13 +19,15 @@
         <br>Chara is notable outside his hockey career as well. Chara is fluent in seven different languages, and has a real estate license, so he will not bored during his retirement. </p>
 </section>
 <section id="stats">
-    <h2> Career Stats </h2>
+    <h2>Career Stats</h2>
     <table>
         <tr>
-            <th> Year </th>
-            <th> Wins </th>
-            <th> Losses </th>
-            <th> GAA </th>
+            <th>Year</th>
+            <th>Team</th>
+            <th>Games played</th>
+            <th>Goals</th>
+            <th>Assists </th>
+            <th>Points </th>
         </tr>
     </table>
 

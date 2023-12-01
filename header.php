@@ -10,6 +10,9 @@
             elseif(basename($_SERVER['SCRIPT_FILENAME']) == "timThomas.php")
                 print 'Tim Thomas';
 
+            elseif(basename($_SERVER['SCRIPT_FILENAME']) == "chara.php")
+                print 'Zdeno Chara';
+
             elseif(basename($_SERVER['SCRIPT_FILENAME']) == "form.php")
                 print 'Bruins Form';
         ?>

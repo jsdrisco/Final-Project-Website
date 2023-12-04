@@ -34,7 +34,10 @@ include 'top.php';
     fldSavePercent DOUBLE,
     fldGAA DOUBLE)
 
-
+    INSERT INTO tblBergeron
+    (fldSeason,fldTeam,fldGamesPlayed,fldGoals,fldAssists,fldPoints)
+    VALUES
+    ('2003-04','Boston Bruins',71,16,23,39)
     </pre>
 
 </main>

@@ -1,5 +1,18 @@
 <?php
     include 'top.php';
+
+    $dataIsGood = false;
+    $errorMessage = '';
+    $message = '';
+
+    $firstName = '';
+    $lastName = '';
+    $email = '';
+
+    $marchand = 0;
+    $lucic = 0;
+    $krejci = 0;
+
 ?>
 
             <form action="#" method="POST">
@@ -51,6 +64,10 @@
                     </p>
                 </fieldset>
             </form>
+
         </body>
+<?php
+include 'footer.php';
+?>
     </main>
 </html>

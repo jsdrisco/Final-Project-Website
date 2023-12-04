@@ -13,6 +13,7 @@
         <!-- link stylesheets here-->
         <meta name="description" content="A feature dedicated to a few notable players from the 2011 NHL Stanley Cup Champion Boston Bruins">
         <!--Head with meta elements and title-->
+        <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
     </head>
     <body>
         <?php

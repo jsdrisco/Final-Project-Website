@@ -16,7 +16,7 @@ include 'top.php';
     )
 
         CREATE TABLE tblBergeron(
-    pmkRecordId INT AUTO_INCREMENT PRIMARY KEY,
+    ho
     fldSeason VARCHAR(9),
     fldTeam VARCHAR(20),
     fldGamesPlayed INT,
@@ -24,6 +24,15 @@ include 'top.php';
     fldAssists INT,
     fldPoints INT
     )
+
+        CREATE TABLE tblThomas(
+    pmkRecordId INT AUTO_INCREMENT PRIMARY KEY,
+    fldSeason VARCHAR(9),
+    fldTeam VARCHAR(20),
+    fldWins INT,
+    fldLosses INT,
+    fldSavePercent DOUBLE,
+    fldGAA DOUBLE)
 
 
     </pre>

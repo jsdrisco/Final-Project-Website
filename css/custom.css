@@ -1,0 +1,9 @@
+html {
+    background-image: url('../images/netCelly.jpeg');
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(240, 230, 140, 0.7);
+    padding: 1em;
+}

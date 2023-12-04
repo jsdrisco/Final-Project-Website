@@ -29,6 +29,25 @@
             <th>Assists </th>
             <th>Points </th>
         </tr>
+        <?php
+        $sql = 'SELECT fldSeason, fldTeam, fldGamesPlayed, fldGoals, fldAssists, fldPoints FROM tblChara';
+        $statement = $pdo->prepare($sql);
+        $statement->execute();
+
+        $records = $statement->fetchAll();
+
+        foreach($records as $record){
+            print '<tr>';
+            print '<td>' . $record['fldSeason'] . '</td>';
+            print '<td>' . $record['fldTeam'] . '</td>';
+            print '<td>' . $record['fldGamesPlayed'] . '</td>';
+            print '<td>' . $record['fldGoals'] . '</td>';
+            print '<td>' . $record['fldAssists'] . '</td>';
+            print '<td>' . $record['fldPoints'] . '</td>';
+            print '</tr>' . PHP_EOL;
+        }
+        ?>
+
     </table>
 
 </section>

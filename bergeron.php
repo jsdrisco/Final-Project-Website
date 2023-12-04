@@ -1,4 +1,7 @@
-<?php include 'top.php';?>
+<?php
+include 'top.php';
+include 'database-connect.php';
+?>
 <main>
 <section id="image">
     <figure>

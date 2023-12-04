@@ -38,7 +38,6 @@
 <section id="database">
     <h3>Database</h3>
     <p><a href="database-connect.php">database-connect.php</a></p>
-
 </section>
 </body>
 </html>

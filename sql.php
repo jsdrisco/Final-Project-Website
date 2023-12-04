@@ -6,7 +6,7 @@ include 'top.php';
     <p>Create Table SQL </p>
     <pre>
         CREATE TABLE tblChara(
-    recordId INT AUTO_INCREMENT PRIMARY KEY,
+    pmkRecordId INT AUTO_INCREMENT PRIMARY KEY,
     fldSeason VARCHAR(9),
     fldTeam VARCHAR(20),
     fldGamesPlayed INT,
@@ -16,7 +16,7 @@ include 'top.php';
     )
 
         CREATE TABLE tblBergeron(
-    recordId INT AUTO_INCREMENT PRIMARY KEY,
+    pmkRecordId INT AUTO_INCREMENT PRIMARY KEY,
     fldSeason VARCHAR(9),
     fldTeam VARCHAR(20),
     fldGamesPlayed INT,

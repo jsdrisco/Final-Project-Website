@@ -17,7 +17,7 @@
                     time he was drafted by the Quebec Nordiques (now the Colorado Avalanche)
                     but did not accept the offer. During his college career, he went 81-43-15
                     with a 2.70 goals against average, and still holds the third spot for saves
-                    in NCAA Division I history.<br>
+                    in NCAA Division I history.<br><br>
 
                     Thomas began his starting role as goaltender for the Bruins in the 2006-07
                     NHL season. His best years came in 2008-09 and 2010-11, in which he posted
@@ -36,7 +36,7 @@
                         <th> Save% </th>
                         <th> GAA </th>
                     </tr>
-                    <?php
+                    <?php /*
                     $sql = 'SELECT fldSeason, fldTeam, fldWins, fldLosses, fldSavePercent, fldGAA FROM tblThomas';
                     $statement = $pdo->prepare($sql);
                     $statement->execute();
@@ -52,14 +52,14 @@
                         print '<td>' . $record['fldSavePercent'] . '</td>';
                         print '<td>' . $record['fldGAA'] . '</td>';
                         print '</tr>' . PHP_EOL;
-                    }
+                    */
                     ?>
                 </table>
             </section>
 
             <section id="video">
                 <h2> Iconic Moment </h2>
-                <video width="320" height="240" controls>
+                <video controls>
                     <source src="videos/timThomas.mp4" type="video/mp4">
                 </video>
                 <cite><br> Thomas hits Hendrik in front of the net <br>

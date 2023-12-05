@@ -1,4 +1,6 @@
 nav{
+    background-color: darkgrey;
+    border-radius: 0.1em;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -6,6 +8,7 @@ nav{
 }
 
 nav > a{
+    color: navajowhite;
     width: 15%;
 }
 
@@ -14,9 +17,9 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
 }
 
 main > section{
-    width: 35%;
+    width: 43%;
 }

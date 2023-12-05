@@ -42,6 +42,13 @@ main {
     margin: auto;
 }
 
+nav {
+    padding: 1em 0em;
+    background-color: rgba(99, 99, 99, 0.7);
+    font-variant: small-caps;
+    font-size: 85%;
+}
+
 p {
     line-height: 125%;
     font-size: 115%;
@@ -68,5 +75,5 @@ video {
 }
 
 .activePage{
-    color: yellow;
+    color: white;
 }

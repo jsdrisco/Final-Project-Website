@@ -12,7 +12,36 @@
     $marchand = 0;
     $lucic = 0;
     $krejci = 0;
+    $other = 0;
+    $memory = '';
 
+    function getData($field) {
+        if (!isset($_POST[$field])) {
+            $data = '';
+        } else {
+            $data = trim($_POST[$field]);
+            $data = htmlspecialchars($data);
+        }
+        return $data;
+    }
+
+    function verifyAlphaNum($testString) {
+        return (preg_match ("/^([[:alnum:]]|-|\.| |\'|&|;|#)+$/", $testString));
+    }
+
+    if($_SERVER["REQUEST_METHOD"] == 'POST'){
+        print PHP_EOL . '<!-- Starting Sanitization -->' . PHP_EOL;
+    }
+
+    $firstName = getData('txtFirstName');
+    $lastName = getData('txtLastName');
+    $email = getData('txtEmail');
+    $email = filter_var($email,FILTER_SANITIZE_EMAIL);
+    $marchand = (int) getData('chkMarchand');
+    $lucic = (int) getData('chkLucic');
+    $krejci = (int) getData('chkKrejci');
+    $other = (int) getData('chkOther');
+    $memory = getData('txtMemory');
 ?>
 
             <form action="#" method="POST">
@@ -53,7 +82,7 @@
 
                     <p>
                         <input type="checkbox" name="chkOther" id="chkOther" value="1">
-                        <label for="chkGeothermal">Other</label>
+                        <label for="chkOther">Other</label>
                     </p>
                 </fieldset>
 

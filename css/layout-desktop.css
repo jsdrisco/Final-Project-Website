@@ -17,9 +17,9 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
 }
 
 main > section{
-    width: 35%;
+    width: 43%;
 }

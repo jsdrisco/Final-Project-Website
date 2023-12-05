@@ -11,7 +11,7 @@ body {
 h1 {
     text-align: center;
     font-variant: small-caps;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 h2 {
@@ -25,8 +25,16 @@ html {
     font-family: sans-serif;
 }
 
+figcaption {
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+}
+
 img {
-    max-width: 125%;
+    width: 115%;
     margin: auto;
 }
 
@@ -37,6 +45,22 @@ main {
 p {
     line-height: 125%;
     font-size: 115%;
+}
+
+table {
+    margin: auto;
+    border: 0.1em solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em 1em;
+    border: 0.1em solid black;
+}
+
+th {
+    font-weight: 800;
+    font-size: 105%;
 }
 
 video {

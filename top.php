@@ -20,7 +20,7 @@
     </head>
     <body>
         <?php
-            include 'database-connect.php';
+            // include 'database-connect.php';
             include 'nav.php';
             include 'header.php';
         ?>

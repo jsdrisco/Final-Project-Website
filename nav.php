@@ -13,16 +13,16 @@
         ?>" href="chara.php"> Zdeno Chara </a>
 
         <a class="<?php
-        if ($pathParts['filename'] == "timThomas") {
-            print 'activePage';
-        }
-        ?>" href="timThomas.php"> Tim Thomas </a>
-
-        <a class="<?php
         if ($pathParts['filename'] == "index") {
             print 'activePage';
         }
         ?>" href="index.php"> Home Page </a>
+
+        <a class="<?php
+        if ($pathParts['filename'] == "timThomas") {
+            print 'activePage';
+        }
+        ?>" href="timThomas.php"> Tim Thomas </a>
 
         <a class="<?php
         if ($pathParts['filename'] == "index") {

@@ -44,6 +44,7 @@
     $memory = getData('txtMemory');
 
     print PHP_EOL . '<!-- Starting Sanitization -->' . PHP_EOL;
+    $dataIsGood = true;
 
     if($firstName == ''){
         $errorMessage .= '<p class="mistake">Please enter your first name</p>';
@@ -124,17 +125,17 @@ if($dataIsGood){
                 <fieldset class="pInfo">
                     <p>
                         <label for="txtEmail">Email:</label>
-                        <input type="email" name="txtEmail" id="email" placeholder="name@domain.com" required>
+                        <input type="email" name="txtEmail" id="txtEmail" placeholder="name@domain.com" required><
                     </p>
 
                     <p>
                         <label for="txtFirstName">First name:</label>
-                        <input type="text" name="txtFirstName" id="firstName" required>
+                        <input type="text" name="txtFirstName" id="txtFirstName" required>
                     </p>
 
                     <p>
                         <label for="txtLastName">Last name:</label>
-                        <input type="text" name="txtLastName" id="lastName" required>
+                        <input type="text" name="txtLastName" id="txtLastName" required>
                     </p>
                 </fieldset>
 

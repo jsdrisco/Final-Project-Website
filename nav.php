@@ -25,7 +25,7 @@
         ?>" href="timThomas.php"> Tim Thomas </a>
 
         <a class="<?php
-        if ($pathParts['filename'] == "index") {
+        if ($pathParts['filename'] == "form") {
             print 'activePage';
         }
         ?>" href="form.php"> Form </a>

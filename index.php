@@ -34,13 +34,10 @@
             </section>
 
             <section id="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ERKu78mjYJE?si=SrqbcQC06Wr6Qgqb" title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                </iframe>
-                <p>
-                    <cite> The Bruins close it out to win the 2011 Stanley Cup </cite>
-                </p>
+                <video controls>
+                    <source src="videos/bruins.mp4" type="video/mp4">
+                </video>
+                <cite><br> The Bruins close out Game 7 to win the cup on 06/16/2011. <br>Source: NHL</cite>
             </section>
         </main>
     </body>

@@ -11,8 +11,8 @@ include 'top.php';
 </section>
 
 <section id="bio">
-    <p>
         <h2>Biography</h2>
+    <p>
         Hailing from the French Province of Quebec in Canada, Bergeron spent all 19 of his NHL seasons with the Boston Bruins.
         Bergeron quickly became known as one of the most dynamic two-way forwards in the league, tallying impressive goal numbers and providing rock-solid defensive play.
         The Frank J. Selke Trophy is awarded each NHL season to the best defensive forward.
@@ -66,9 +66,10 @@ include 'top.php';
 
 <section id="video">
     <h2>Iconic Moment</h2>
-    <p>This play highlights Bergeron's incredible defensive abilities that made him such a valuable asset to the Bruins</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/q6SUYwBh3zc?si=3_S6jjUHb5QYGvHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+    <video controls>
+        <source src="videos/patriceBergeron.mp4" type="video/mp4">
+    </video>
+    <cite><br> Bergeron makes an incredible defensive play allowing Brad Marchand to score, BOS vs. CAR 10/30/2018</cite>
 </section>
 </main>
 </body>

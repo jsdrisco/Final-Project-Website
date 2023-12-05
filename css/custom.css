@@ -1,3 +1,6 @@
+a{
+    font-size: 125%;
+}
 body {
     background-color: rgba(240, 230, 140, 0.7);
     padding-bottom: 3em;
@@ -38,4 +41,8 @@ p {
 
 video {
     max-width: 100%;
+}
+
+.activePage{
+    color: yellow;
 }

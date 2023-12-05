@@ -1,6 +1,6 @@
 <?php
 include 'top.php';
-include 'database-connect.php';
+// include 'database-connect.php';
 ?>
 <main>
 <section id="image">
@@ -43,7 +43,7 @@ include 'database-connect.php';
             <th>Assists</th>
             <th>Points</th>
         </tr>
-        <?php
+         <?php /*
         $sql = 'SELECT fldSeason, fldTeam, fldGamesPlayed, fldGoals, fldAssists, fldPoints FROM tblBergeron';
         $statement = $pdo->prepare($sql);
         $statement->execute();
@@ -59,7 +59,7 @@ include 'database-connect.php';
             print '<td>' . $record['fldAssists'] . '</td>';
             print '<td>' . $record['fldPoints'] . '</td>';
             print '</tr>' . PHP_EOL;
-        }
+        } */
         ?>
     </table>
 </section>

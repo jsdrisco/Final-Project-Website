@@ -1,6 +1,6 @@
 <?php
 include 'top.php';
-//include 'database-connect.php';
+// include 'database-connect.php';
 ?>
 <main>
 <section id="image">
@@ -43,24 +43,24 @@ include 'top.php';
             <th>Assists</th>
             <th>Points</th>
         </tr>
-<!--        --><?php
-//        $sql = 'SELECT fldSeason, fldTeam, fldGamesPlayed, fldGoals, fldAssists, fldPoints FROM tblBergeron';
-//        $statement = $pdo->prepare($sql);
-//        $statement->execute();
-//
-//        $records = $statement->fetchAll();
-//
-//        foreach($records as $record){
-//            print '<tr>';
-//            print '<td>' . $record['fldSeason'] . '</td>';
-//            print '<td>' . $record['fldTeam'] . '</td>';
-//            print '<td>' . $record['fldGamesPlayed'] . '</td>';
-//            print '<td>' . $record['fldGoals'] . '</td>';
-//            print '<td>' . $record['fldAssists'] . '</td>';
-//            print '<td>' . $record['fldPoints'] . '</td>';
-//            print '</tr>' . PHP_EOL;
-//        }
-//        ?>
+         <?php /*
+        $sql = 'SELECT fldSeason, fldTeam, fldGamesPlayed, fldGoals, fldAssists, fldPoints FROM tblBergeron';
+        $statement = $pdo->prepare($sql);
+        $statement->execute();
+
+        $records = $statement->fetchAll();
+
+        foreach($records as $record){
+            print '<tr>';
+            print '<td>' . $record['fldSeason'] . '</td>';
+            print '<td>' . $record['fldTeam'] . '</td>';
+            print '<td>' . $record['fldGamesPlayed'] . '</td>';
+            print '<td>' . $record['fldGoals'] . '</td>';
+            print '<td>' . $record['fldAssists'] . '</td>';
+            print '<td>' . $record['fldPoints'] . '</td>';
+            print '</tr>' . PHP_EOL;
+        } */
+        ?>
     </table>
 </section>
 
@@ -68,6 +68,7 @@ include 'top.php';
     <h2>Iconic Moment</h2>
     <p>This play highlights Bergeron's incredible defensive abilities that made him such a valuable asset to the Bruins</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/q6SUYwBh3zc?si=3_S6jjUHb5QYGvHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 </section>
 </main>
 </body>

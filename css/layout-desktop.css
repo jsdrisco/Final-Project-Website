@@ -1,32 +1,22 @@
-body{
-    width: 80%
-}
-
-main{
-    width: 85%;
-}
-
 nav{
-    padding: 0.3em;
-    background-color: darkgrey;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
-nav a{
-    color: navajowhite;
+
+nav > a{
     width: 15%;
 }
 
-
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 80%;
 }
 
 main > section{
-    width: 40%;
+    width: 35%;
 }

@@ -37,7 +37,21 @@ include 'top.php';
     INSERT INTO tblBergeron
     (fldSeason,fldTeam,fldGamesPlayed,fldGoals,fldAssists,fldPoints)
     VALUES
-    ('2003-04','Boston Bruins',71,16,23,39)
+    ('2003-04','Boston Bruins',71,16,23,39);
+
+
+        CREATE TABLE tblBruinsSurvey(
+    pmkSubmission INT AUTO_INCREMENT PRIMARY KEY,
+        fldFirstName VARCHAR(20)
+        fldLastName VARCHAR(30),
+        fldEmail VAR(400),
+        fldMarchand INT,
+        fldLucic INT,
+        fldKrejci INT,
+        fldOther INT,
+        fldMemory VARCHAR(500)
+    )
+
     </pre>
 
 </main>

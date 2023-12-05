@@ -1,3 +1,4 @@
+<!-- Connecting -->
 <?php
 $databaseName = 'JLACKEY_final';
 $dsn = 'mysql:host=webdb.uvm.edu;dbname='. $databaseName;

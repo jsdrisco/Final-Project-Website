@@ -43,7 +43,7 @@ include 'top.php';
             <th>Assists</th>
             <th>Points</th>
         </tr>
-         <?php /*
+         <?php
         $sql = 'SELECT fldSeason, fldTeam, fldGamesPlayed, fldGoals, fldAssists, fldPoints FROM tblBergeron';
         $statement = $pdo->prepare($sql);
         $statement->execute();
@@ -59,7 +59,7 @@ include 'top.php';
             print '<td>' . $record['fldAssists'] . '</td>';
             print '<td>' . $record['fldPoints'] . '</td>';
             print '</tr>' . PHP_EOL;
-        } */
+        }
         ?>
     </table>
 </section>

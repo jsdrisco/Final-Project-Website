@@ -103,6 +103,7 @@ if($dataIsGood){
         if($statement->execute($data)){
             $message = '<h2>Thank you</h2>';
             $message .= '<p>Your information was successfully saved </p>';
+            mail($email,"Bruins form submission","Thank you for feedback! We appreciate it");
         } else {
             $message .= '<p>Record was NOT successfully saved.</p>';
         }
@@ -125,7 +126,7 @@ if($dataIsGood){
                 <fieldset class="pInfo">
                     <p>
                         <label for="txtEmail">Email:</label>
-                        <input type="email" name="txtEmail" id="txtEmail" placeholder="name@domain.com" required><
+                        <input type="email" name="txtEmail" id="txtEmail" placeholder="name@domain.com" required>
                     </p>
 
                     <p>

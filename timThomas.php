@@ -36,7 +36,7 @@
                         <th> Save% </th>
                         <th> GAA </th>
                     </tr>
-                    <?php /*
+                    <?php win/*
                     $sql = 'SELECT fldSeason, fldTeam, fldWins, fldLosses, fldSavePercent, fldGAA FROM tblThomas';
                     $statement = $pdo->prepare($sql);
                     $statement->execute();

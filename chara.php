@@ -54,7 +54,8 @@
 
 <section id="video">
     <h2>Iconic Moment</h2>
-    <p>Chara gleefully carries the Stanley Cup after their iconic win</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0Gj1Tp7ZbMk?si=yDNHuZo9z_RlbuA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <cite>Source: NBC</cite>
+    <video controls>
+        <source src="videos/zdenoChara.mp4" type="video/mp4">
+    </video>
+    <cite><br>Chara gleefully carries the Stanley Cup after their iconic win<br> Source: NBC</cite>
 </section>

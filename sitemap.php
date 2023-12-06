@@ -24,7 +24,7 @@
     <p><a href="css/custom.css">CSS Stylesheet</a></p>
     <p><a href="css/layout-desktop.css">Desktop Layout</a></p>
     <p><a href="css/layout-tablet.css">Tablet Layout</a></p>
-    <p><a href="css/layout-mobile.css">Mobile Layout</a></p>
+    <p><a href="css/layout-phone.css">Mobile Layout</a></p>
     <p><a href="css/wireframe-desktop.JPG">Desktop Wireframe</a></p>
     <p><a href="css/wireframe-mobile-tablet.JPG">Mobile/Tablet Wireframe</a></p>
 </section>

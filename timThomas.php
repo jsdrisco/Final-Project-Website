@@ -36,14 +36,14 @@
                         <th> Save% </th>
                         <th> GAA </th>
                     </tr>
-                    <?php win/*
+                    <?php
                     $sql = 'SELECT fldSeason, fldTeam, fldWins, fldLosses, fldSavePercent, fldGAA FROM tblThomas';
                     $statement = $pdo->prepare($sql);
                     $statement->execute();
 
                     $records = $statement->fetchAll();
 
-                    foreach($records as $record){
+                    foreach($records as $record) {
                         print '<tr>';
                         print '<td>' . $record['fldSeason'] . '</td>';
                         print '<td>' . $record['fldTeam'] . '</td>';
@@ -52,7 +52,7 @@
                         print '<td>' . $record['fldSavePercent'] . '</td>';
                         print '<td>' . $record['fldGAA'] . '</td>';
                         print '</tr>' . PHP_EOL;
-                    */
+                    }
                     ?>
                 </table>
             </section>

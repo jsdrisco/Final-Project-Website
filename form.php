@@ -71,6 +71,7 @@
     }
 
     $totalChecked = 0;
+    $writeNext = '';
 
     if($marchand != 1) $marchand = 0;
     $totalChecked += $marchand;
@@ -89,6 +90,20 @@
         $dataIsGood = false;
     }
 
+    if($marchand = 1) {
+        $writeNext .= "Marchand, ";
+    }
+    if($lucic = 1) {
+        $writeNext .= "Lucic, ";
+    }
+    if($krejci = 1) {
+        $writeNext .= "Krejci, ";
+    }
+    if($other = 1) {
+        $writeNext .= "other, ";
+    }
+
+    $writeNext = substr($writeNext,0,-2);
 print '<!-- Starting saving -->';
 if($dataIsGood){
     $sql = 'INSERT INTO tblBruinsSurvey
@@ -103,7 +118,8 @@ if($dataIsGood){
         if($statement->execute($data)){
             $message = '<h2>Thank you</h2>';
             $message .= '<p>Your information was successfully saved </p>';
-            mail($email,"Bruins form submission","Thank you for feedback! We appreciate it");
+            $emailMessage = "Your name: $firstName $lastName\nWho we should write about next: $writeNext\nYour favorite bruins memory: $memory";
+            mail($email,"Bruins form submission","Thank you for feedback! Here is your submission:\n$emailMessage");
         } else {
             $message .= '<p>Record was NOT successfully saved.</p>';
         }
@@ -113,15 +129,6 @@ if($dataIsGood){
 }
     ?>
     <main>
-        <?php
-        print $message;
-        print $errorMessage;
-
-        print '<p>Post Array:</p><pre>';
-        print_r($_POST);
-        print '</pre>';
-        ?>
-
             <form action="#" method="POST">
                 <fieldset class="pInfo">
                     <p>
@@ -181,6 +188,11 @@ if($dataIsGood){
                     </p>
                 </fieldset>
             </form>
+        <?php
+        print $message;
+        print $errorMessage;
+        print "\n";
+        ?>
     </main>
 <?php
     include 'footer.php';

@@ -122,6 +122,17 @@ include 'top.php';
     fldVancouverScore INT
     )
 
+
+        INSERT INTO tblGameStats(pmkGame, fldRecord,fldBruinsScore,fldVancouverScore)
+    VALUES
+    (1,'0-1',0,1),
+    (2,'0-2',2,3),
+    (3,'1-2',8,1),
+    (4,'2-2',4,0),
+    (5,'2-3',0,1),
+    (6,'3-3',5,2),
+    (7,'4-3',4,0)
+
     </pre>
 
 </main>

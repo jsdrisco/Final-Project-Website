@@ -25,10 +25,26 @@
                     <table>
                         <tr>
                             <th> Game </th>
-                            <th> Series Record </th>
+                            <th> Series Record (BOS-VAN) </th>
                             <th> BOS </th>
                             <th> VAN </th>
                         </tr>
+                    <?php
+                    $sql = 'SELECT pmkGame, fldRecord, fldBruinsScore, fldVancouverScore FROM tblGameStats';
+                    $statement = $pdo->prepare($sql);
+                    $statement->execute();
+
+                    $records = $statement->fetchAll();
+
+                    foreach($records as $record){
+                        print '<tr>';
+                        print '<td>' . $record['pmkGame'] . '</td>';
+                        print '<td>' . $record['fldRecord'] . '</td>';
+                        print '<td>' . $record['fldBruinsScore'] . '</td>';
+                        print '<td>' . $record['fldVancouverScore'] . '</td>';
+                        print '</tr>' . PHP_EOL;
+                    }
+                    ?>
                     </table>
                 </p>
             </section>

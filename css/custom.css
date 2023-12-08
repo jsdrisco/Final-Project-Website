@@ -77,3 +77,8 @@ video {
 .activePage{
     color: white;
 }
+
+.mistake{
+    color: red;
+    background-color: indianred;
+}

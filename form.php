@@ -200,9 +200,6 @@ if($dataIsGood){
         print $errorMessage;
         print "\n";
         ?>
-    </main>
 <?php
     include 'footer.php';
 ?>
-</body>
-</html>

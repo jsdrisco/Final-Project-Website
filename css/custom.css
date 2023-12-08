@@ -80,5 +80,13 @@ video {
 
 .mistake{
     color: red;
-    background-color: indianred;
+}
+
+footer{
+    display: flex;
+    font-size: 50%;
+}
+
+footer > p {
+    width: 20%;
 }

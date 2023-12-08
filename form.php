@@ -95,16 +95,16 @@
         $dataIsGood = false;
     }
 
-    if($marchand = 1) {
+    if($marchand == 1) {
         $writeNext .= "Marchand, ";
     }
-    if($lucic = 1) {
+    if($lucic == 1) {
         $writeNext .= "Lucic, ";
     }
-    if($krejci = 1) {
+    if($krejci == 1) {
         $writeNext .= "Krejci, ";
     }
-    if($other = 1) {
+    if($other == 1) {
         $writeNext .= "other, ";
     }
 

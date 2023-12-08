@@ -3,6 +3,7 @@
 ?>
 
             <section id="image">
+                <h2>2011 Stanley Cup Finals MVP Tim Thomas</h2>
                 <figure>
                     <img src="images/timThomas.jpg" alt="2011 Stanley Cup Finals MVP Tim Thomas">
                     <figcaption><cite> Source: Getty Images </cite></figcaption>

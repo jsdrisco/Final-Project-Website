@@ -3,9 +3,10 @@ include 'top.php';
 // include 'database-connect.php';
 ?>
 <section id="image">
+    <h2>Patrice Bergeron circa 2011</h2>
     <figure>
         <img src="images/patriceBergeron.jpg" alt="Patrice Bergeron circa 2011">
-        <figcaption> <cite>Source: Boston Globe<cite> </figcaption>
+        <figcaption> <cite>Source: Boston Globe</cite> </figcaption>
     </figure>
 </section>
 

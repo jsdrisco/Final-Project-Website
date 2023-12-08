@@ -3,6 +3,7 @@
 ?>
 
 <section id="image">
+    <h2>2011 Stanley Cup Winner Zdeno Chara</h2>
 <figure>
     <img src="images/zdenoChara2.jpg" alt="2011 Stanley Cup Winner Zdeno Chara">
     <figcaption><cite>Source: Getty Image</cite></figcaption>

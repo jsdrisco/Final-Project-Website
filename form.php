@@ -128,7 +128,7 @@ if($dataIsGood){
     }
 }
     ?>
-    <main>
+
             <form action="#" method="POST">
                 <fieldset class="pInfo">
                     <p>
@@ -193,9 +193,6 @@ if($dataIsGood){
         print $errorMessage;
         print "\n";
         ?>
-    </main>
 <?php
     include 'footer.php';
 ?>
-</body>
-</html>

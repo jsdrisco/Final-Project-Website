@@ -65,6 +65,6 @@
                 <cite><br> Thomas hits Hendrik in front of the net <br>
                 Game 3 of the 2011 Stanley Cup, 06/06/2011</cite>
             </section>
-        </main>
-    </body>
-</html>
+<?php
+include 'footer.php';
+?>

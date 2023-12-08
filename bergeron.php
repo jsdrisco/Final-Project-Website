@@ -2,7 +2,6 @@
 include 'top.php';
 // include 'database-connect.php';
 ?>
-<main>
 <section id="image">
     <figure>
         <img src="images/patriceBergeron.jpg" alt="Patrice Bergeron circa 2011">
@@ -71,6 +70,6 @@ include 'top.php';
     </video>
     <cite><br> Bergeron makes an incredible defensive play allowing Brad Marchand to score, BOS vs. CAR 10/30/2018 <br> Source: Sportsnet</cite>
 </section>
-</main>
-</body>
-</html>
+<?php
+include 'footer.php';
+?>

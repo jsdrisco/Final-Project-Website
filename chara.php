@@ -8,7 +8,6 @@
     <figcaption><cite>Source: Getty Image</cite></figcaption>
 </figure>
 </section>
-
 <section id="bio">
 <h2>Biography</h2>
     <p>Zdeno Chara, was born in 1977 in Slovakia. He played in the NHL for 24 seasons, from 1998-2022, playing for the New York Islanders, Ottawa Senators, Boston Bruins, and the Washington Capitals.
@@ -62,3 +61,6 @@
     </video>
     <cite><br>Chara gleefully carries the Stanley Cup after their iconic win<br> Source: NBC</cite>
 </section>
+<?php
+include 'footer.php';
+?>

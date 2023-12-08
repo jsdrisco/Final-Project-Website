@@ -23,7 +23,7 @@
             include 'nav.php';
             include 'header.php';
         ?>
-        <main>
+    <main>
 <?php
 /**
 print '<body class ="' .$pathParts['filename'] .'">';

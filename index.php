@@ -39,6 +39,7 @@
                 </video>
                 <cite><br> The Bruins close out Game 7 to win the cup on 06/16/2011. <br>Source: NHL</cite>
             </section>
-        </main>
-    </body>
-</html>
+<?php
+include 'footer.php';
+?>
+

@@ -37,6 +37,7 @@
     $lastName = getData('txtLastName');
     $email = getData('txtEmail');
     $email = filter_var($email,FILTER_SANITIZE_EMAIL);
+
     $marchand = (int) getData('chkMarchand');
     $lucic = (int) getData('chkLucic');
     $krejci = (int) getData('chkKrejci');
@@ -73,16 +74,20 @@
     $totalChecked = 0;
     $writeNext = '';
 
-    if($marchand != 1) $marchand = 0;
+    if($marchand != 1)
+        $marchand = 0;
     $totalChecked += $marchand;
 
-    if($lucic != 1) $lucic = 0;
+    if($lucic != 1)
+        $lucic = 0;
     $totalChecked += $lucic;
 
-    if($krejci != 1) $krejci = 0;
+    if($krejci != 1)
+        $krejci = 0;
     $totalChecked += $krejci;
 
-    if($other != 1) $other = 0;
+    if($other != 1)
+        $other = 0;
     $totalChecked += $other;
 
     if($totalChecked == 0) {
@@ -128,22 +133,24 @@ if($dataIsGood){
     }
 }
     ?>
-    <main>
             <form action="#" method="POST">
                 <fieldset class="pInfo">
                     <p>
                         <label for="txtEmail">Email:</label>
-                        <input type="email" name="txtEmail" id="txtEmail" placeholder="name@domain.com" required>
+                        <input type="email" name="txtEmail" id="txtEmail" placeholder="name@domain.com" required
+                            <?php print 'value="' . $email . '"'; ?>>
                     </p>
 
                     <p>
                         <label for="txtFirstName">First name:</label>
-                        <input type="text" name="txtFirstName" id="txtFirstName" required>
+                        <input type="text" name="txtFirstName" id="txtFirstName" required
+                            <?php print 'value="' . $firstName . '"'; ?>>
                     </p>
 
                     <p>
                         <label for="txtLastName">Last name:</label>
-                        <input type="text" name="txtLastName" id="txtLastName" required>
+                        <input type="text" name="txtLastName" id="txtLastName" required
+                        <?php print 'value="' . $lastName . '"'; ?>>
                     </p>
                 </fieldset>
 
@@ -151,26 +158,26 @@ if($dataIsGood){
                    <legend> Which players should we write about next? </legend>
 
                     <p>
-                        <input type="checkbox" name="chkMarchand" id="chkMarchand"
-                               <?php if($marchand == 1) print 'checked'; ?> value="1">
+                        <input type="checkbox" name="chkMarchand" id="chkMarchand" value="1"
+                               <?php if($marchand == 1) print 'checked'; ?>>
                         <label for="chkMarchand">Brad Marchand</label>
                     </p>
 
                     <p>
-                        <input type="checkbox" name="chkLucic" id="chkLucic"
-                               <?php if($lucic == 1) print 'checked'; ?> value="1">
+                        <input type="checkbox" name="chkLucic" id="chkLucic" value="1"
+                               <?php if($lucic == 1) print 'checked'; ?> >
                         <label for="chkLucic">Milan Lucic</label>
                     </p>
 
                     <p>
-                        <input type="checkbox" name="chkKrejci" id="chkKrejci"
-                               <?php if($krejci == 1) print 'checked'; ?> value="1">
+                        <input type="checkbox" name="chkKrejci" id="chkKrejci" value="1"
+                               <?php if($krejci == 1) print 'checked'; ?>>
                         <label for="chkKrejci">David Krejci</label>
                     </p>
 
                     <p>
-                        <input type="checkbox" name="chkOther" id="chkOther"
-                               <?php if($other == 1) print 'checked'; ?> value="1">
+                        <input type="checkbox" name="chkOther" id="chkOther" value="1"
+                               <?php if($other == 1) print 'checked'; ?>>
                         <label for="chkOther">Other</label>
                     </p>
                 </fieldset>

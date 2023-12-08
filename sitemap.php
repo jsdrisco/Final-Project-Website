@@ -39,5 +39,9 @@
     <h3>Database</h3>
     <p><a href="database-connect.php">database-connect.php</a></p>
 </section>
+<section>
+    <h3>Grader Notes</h3>
+    <p>Form text area is not sticky, no attribute to make sticky.</p>
+</section>
 </body>
 </html>

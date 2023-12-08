@@ -14,9 +14,12 @@
     <p>Zdeno Chara, was born in 1977 in Slovakia. He played in the NHL for 24 seasons, from 1998-2022, playing for the New York Islanders, Ottawa Senators, Boston Bruins, and the Washington Capitals.
         His career began with the New York Islanders, but he spent a majority of his years with the Bruins, from 2006-2020. At the end of his career, he played for the New York Islanders, but in 2022
         he signed a one-day contract with the Bruins, to official retire as a member of the team. During his time in the NHL, Chara set multiple notable records, such as tallest player in history at 6
-        foot 9 inches, most games played by a defenceman at, and NHL All-Star Skills competition, with the hardest slap shot, at 108.8 mph in 2012, and more.
+        foot 9 inches, most games played by a defenceman at, and NHL All-Star Skills competition, with the hardest slap shot, at 108.8 mph in 2012, and more. Chara's height allowed him to be one of few exceptions to the NHL's rule on maximum stick length.
+        He also is one of 20 players to score 1,500 goals in the NHL. He also holds the record for the most games played by a defenceman in the NHL.
 
-        <br>Chara is notable outside his hockey career as well. Chara is fluent in seven different languages, and has a real estate license, so he will not bored during his retirement. </p>
+        </p>
+
+        <p>Chara is notable outside his hockey career as well. Chara is fluent in seven different languages, and has a real estate license, so he will not bored during his retirement. </p>
 </section>
 <section id="stats">
     <h2>Career Stats</h2>

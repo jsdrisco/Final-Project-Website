@@ -152,25 +152,25 @@ if($dataIsGood){
 
                     <p>
                         <input type="checkbox" name="chkMarchand" id="chkMarchand"
-                               <?php if($marchand) print 'checked'; ?> value="1">
+                               <?php if($marchand == 1) print 'checked'; ?> value="1">
                         <label for="chkMarchand">Brad Marchand</label>
                     </p>
 
                     <p>
                         <input type="checkbox" name="chkLucic" id="chkLucic"
-                               <?php if($lucic) print 'checked'; ?> value="1">
+                               <?php if($lucic == 1) print 'checked'; ?> value="1">
                         <label for="chkLucic">Milan Lucic</label>
                     </p>
 
                     <p>
                         <input type="checkbox" name="chkKrejci" id="chkKrejci"
-                               <?php if($krejci) print 'checked'; ?> value="1">
+                               <?php if($krejci == 1) print 'checked'; ?> value="1">
                         <label for="chkKrejci">David Krejci</label>
                     </p>
 
                     <p>
                         <input type="checkbox" name="chkOther" id="chkOther"
-                               <?php if($other) print 'checked'; ?> value="1">
+                               <?php if($other == 1) print 'checked'; ?> value="1">
                         <label for="chkOther">Other</label>
                     </p>
                 </fieldset>

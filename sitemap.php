@@ -38,10 +38,12 @@
 <section id="database">
     <h3>Database</h3>
     <p><a href="database-connect.php">database-connect.php</a></p>
+    <p><a href = "images/database.JPG"> Database Screenshot</a></p>
 </section>
 <section>
     <h3>Grader Notes</h3>
     <p>Form text area is not sticky, no attribute to make sticky.</p>
+    <a href = https://uvmoffice-my.sharepoint.com/:v:/g/personal/asubach_uvm_edu/ESOP23SRx6hHsG1QSyFA27sBAJRInxgmOaNU-EaFbX_Cpg?e=gIN81w"> Video Link </a>
 </section>
 </body>
 </html>

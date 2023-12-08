@@ -19,9 +19,17 @@
                     with a 2.70 goals against average, and still holds the third spot for saves
                     in NCAA Division I history.<br><br>
 
+                    Following his time in college hockey, he spent a few years in the EHCL and AHL,
+                    signing with Boston in 2001 and playing for their AHL affiliate in Providence.
+                    He was called up four times throughout the 2002-03 season, where he played four
+                    games in the NHL and got his first win in a 4-3 October game versus the Oilers.
+
                     Thomas began his starting role as goaltender for the Bruins in the 2006-07
                     NHL season. His best years came in 2008-09 and 2010-11, in which he posted
-                    excellent .933 and .938 save percentages, respectively.
+                    excellent .933 and .938 save percentages, respectively. Tim Thomas had an excellent series against the Canucks in the 2011 Stanley
+                    Cup Finals; his 4-3-0 record in the series hides a truly remarkable performance.
+                    In the seven game series, he posted a very low GAA of 1.15, and an outstanding
+                    .967 save percentage - 238 out of the 246 shots he saw.
                 </p>
             </section>
 
